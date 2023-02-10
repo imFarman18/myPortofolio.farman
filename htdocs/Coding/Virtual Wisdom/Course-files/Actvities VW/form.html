@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Submitted.php">
+</head>
+
+<body>
+
+    <form action="Submitted.php" method="post">Form application <br><br>
+    <label for="1name">First Name</label>
+    <input placeholder="Your name" type="text" name="name" id="1name">
+    <br><br>
+    <label for="2name">Last Name</label>
+    <input placeholder="Your surname" type="text" name="name" id="2name">
+    <br><br>
+    <label  for="email">Conatct Email</label>
+    <input placeholder="Email adresse" type="email" name="email" id="email">
+    <br><br>
+    <label for="Number">Contact Number</label>
+    <input required placeholder="Phone number" type="tel" name="Number" id="Number">
+    <br><br>
+    <label for="">For &nbsp; </label>
+    <select name="job" id=""> 
+        <option value="">SELECT A JOB</option>
+        <option value="web developer">web developer</option>
+        <option value="ui designer"> ui designer</option>
+        <option value="cybersecurity">cybersecurity</option>
+        <option value="app developer">app developer</option>
+    </select><br><br>
+    <label for="file">Upload file here</label>
+    <input type="file" name="file" id="file">
+    <br><br>
+    <textarea placeholder="Suggestions" name="sug" id="" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Click to Submit">
+    
+</form>
+</body>
+
+</html>

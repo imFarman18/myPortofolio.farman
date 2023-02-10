@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Index file of my course</title>
+</head>
+
+<body>
+    <h2 id="lec2">Lecture 2</h2>
+
+    <!--Headings Area-->
+    <h1 id="lec2h1">This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <!--Paragraphs Area-->
+    <p>This is a <strong>bold</strong> paragraph</p>
+    <p>This is a <em>italic</em> paragraph</p>
+
+    <hr>
+
+    <h2>Lecture 3</h2>
+    <span>This is a span. </span>
+    <span>This is a span aswell.</span>
+
+    <ul type="circle">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+    </ul>
+
+    <ol type="A">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ol>
+
+    <hr>
+
+    <h2>Lecture 4</h2>
+
+    <p> To visit Website, please Click <a href="https://learning.vwisdom.org/">Here</a> </p>
+
+    <hr>
+
+    <h2 id="lec5">Lecture 5</h2>
+
+    <h4>Inserting Images from local directory</h4>
+
+    <img src="Assets/VW Technologies - 2.png" alt="VW Technologies Logo" width="1000px" height="1000px">
+
+    <video src="Assets/Visual Studio Code Installation and Basic Setup Tutorial.mp4" width="1000px" controls></video>
+
+    <p>Tag for Paragraph is &lt;p&gt; </p>
+
+    <p>Copyright sign HTML Entity &copy;</p>
+
+    <p>Approximate sign HTML Entity is &acd;</p>
+
+    <p>Right Arrow HTML Entity &bkarow;</p>
+
+    <hr>
+
+    <h2>Containers</h2>
+
+    <div style="border: 1px solid black; width: 300px;">
+
+        <p>Tag for Paragraph is &lt;p&gt; </p>
+
+        <p>Copyright sign HTML Entity &copy;</p>
+
+        <p>Approximate sign HTML Entity is &acd;</p>
+
+        <p>Right Arrow HTML Entity &bkarow;</p>
+
+    </div>
+
+    <div style="border: 1px solid greenyellow; width: 300px;">
+
+        <ul type="circle">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+        </ul>
+
+        <ol type="A">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+        </ol>
+
+    </div>
+
+    <hr>
+
+    <h2>Forms Basics</h2>
+
+    <form action="submitted.php" method="post">
+        <label for="user_name">Name:</label>
+        <input type="text" name="myName" id="user_name" placeholder="Your Name Here" required> <br><br>
+        <label for="user_email">Email Address:</label>
+        <input type="email" name="myEmail" id="user_email" placeholder="Your Email Here" required> <br><br>
+        <label for="" >Gender:</label>
+        <input type="radio" name="myGender" id="" value="Male"> Male
+        <input type="radio" name="myGender" id="" value="Female"> Female
+        <br><br>
+        <label for="Payment_methods">Select Payment Method</label>
+        <select name="myDropDownOption" id="Payment_methods"> <br><br>
+            <option value="">Select One</option>
+            <option value="PayPal" >PayPal</option>
+            <option value="MasterCard">MasterCard</option>
+            <option value="VISA">VISA</option>
+            <option value="COD" >Cash on Delivery</option>
+        </select>
+        <br><br>
+        <label for="">Your Habits:</label>
+        <br>
+        <input type="checkbox" id="mh_1" name="myHabit_1" value="Book Reading">
+        <label for="mh_1">Book Reading</label>
+        <br>
+        <input type="checkbox" id="mh_2" name="myHabit_2" value="Programming">
+        <label for="mh_2">Programming</label>
+        <br>
+        <input type="checkbox" id="mh_3" name="myHabit_3" value="Online Research">
+        <label for="mh_3">Online Research</label>
+        <br> <br>
+        <label for="user_phonenum">Phone Number:</label>
+        <input type="tel" name="myPhonenum" id="user_phonenum" placeholder="Your Phone Number Here">
+        <br><br>
+        <label for="user_suggestion">Any suggestions:</label><br>
+        <textarea name="mysuggestion" id="user_suggestion" cols="30" rows="10"
+            placeholder="Your Suggestions Here...">Your Suggestions Here...</textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        
+    </form>
+
+</body>
+
+</html>

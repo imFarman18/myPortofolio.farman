@@ -1,0 +1,61 @@
+body {
+  background-color: rgba(5, 0, 0, 0.97);
+  color: aliceblue;
+}
+
+li {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 1.4cm;
+  justify-content: space-between;
+
+
+
+}
+
+button {
+  position: relative;
+  left: 33cm;
+  bottom: 1cm;
+  background-color: rgb(228, 32, 32);
+  padding-right: 19px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: 900;
+}
+
+button :hover{
+  
+color: blueviolet;
+}
+
+
+.Menu {
+  font-size: 17.3px;
+}
+
+ul {
+  position: relative;
+  left: 18cm;
+  top: 10px;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.shadow {
+  box-shadow: -9px 2px 55px 33px rgb(157, 64, 31);
+
+}
+
+#img1 {
+  width: 101%;
+  margin-bottom: 100%;
+}

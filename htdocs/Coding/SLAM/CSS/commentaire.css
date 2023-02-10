@@ -1,0 +1,173 @@
+body {
+
+    color: aliceblue;
+
+    padding: 20px;
+
+}
+
+.fond {
+
+    border-radius: 10px;
+
+    width: 100%;
+
+    height: 130vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/premiere\ image.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+   
+}
+
+
+
+.barnav {
+
+    width: 85%;
+
+    margin: auto;
+
+    padding: 35PX 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+.barnav ul li {
+
+    list-style: none;
+
+    display: inline-block;
+
+    margin: 0 20px;
+
+    position: relative;
+
+
+
+}
+
+.barnav ul li a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+}
+
+.barnav ul li ::after {
+
+    content: '';
+
+    height: 3px;
+
+    width: 0;
+
+    background: hsl(218, 88%, 38%);
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -10px;
+
+    transition: 0.5s;
+
+
+
+}
+
+.barnav ul li :hover::after {
+
+    width: 100%;
+
+}
+
+.corp {
+
+
+
+    text-align: center;
+
+    color: #fff;
+
+
+
+}
+
+.esp {
+
+    margin: 0;
+
+}
+
+button {
+
+    height: 40px;
+    ;
+
+    width: 150px;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+    margin: 20px 10px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    background: transparent;
+
+    color: #fff;
+
+    cursor: pointer;
+
+
+
+
+}
+
+button:hover {
+
+    transition: 0.9s;
+
+    background-color: hsla(228, 77%, 45%, 0.77);
+
+}
+
+a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+#b {
+
+    height: 40px;
+    border-color: rgb(250, 250, 251);
+
+    
+}
+
+#b1 {
+    border-radius: 10px;
+    box-shadow: 1px 0px 20px 2px rgb(0, 191, 255);
+}
+
+textarea {
+    width: 1000px;
+}

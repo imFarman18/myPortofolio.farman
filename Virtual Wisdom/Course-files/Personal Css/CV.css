@@ -1,0 +1,41 @@
+body{
+    Background-color: rgb(238, 175, 27);
+    color: aliceblue;
+    
+}
+.leftside{
+    border: solid 0.0001cm;
+    border-color: rgb(233, 84, 84);
+    border-radius: 30px;
+    margin-right: 75%;
+    padding-bottom: 100%;
+    background-color: rgb(228, 34, 34);
+    box-shadow: 2px 17px 90px 50px rgb(0, 0, 0);
+        
+    
+}
+
+:hover.leftside{
+    background-color: rgb(255, 157, 0);
+    border-color: aqua;
+    margin-right: 75%;
+    
+    
+
+    
+    
+}
+img{
+    padding-left: 55px;
+    padding-top: 17px
+     }
+  
+
+
+    }
+    .collections-banner .adaptive_height {
+        padding-top: 100% !important;
+    }
+    .collections-banner .adaptive_height img {
+        object-fit: cover;
+    }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    body{
+        background-color: rgb(111, 127, 198);
+    }
+    form {
+        background-color: rgb(42, 52, 188);
+        color: rgb(255, 255, 255);
+        margin: 270px;
+        padding: 60px;
+        padding-bottom: 90px;
+        border: 1px solid black;
+        border-radius: 45px;
+        box-shadow: 6px 1px 120px 50px red;
+        
+        
+     
+    }
+    h2{
+        text-align: center;
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    div{
+        font-size: larger;
+        
+    }
+    #submit1{
+        font-size: larger;
+    }
+    input , label , select{
+        font-size: larger;
+    }
+</style>
+
+<body>
+
+
+
+<nav>
+    
+    <form action="submit.html">
+
+        <h2>Forum</h2>
+        <div>
+            <label for="Name">First Name</label>
+            <input type="text" name="Name" id="Name" placeholder="First name here">
+           <br> <br><label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last name here">
+           <br> <br> <label for="dob">Date of birth</label>
+           <input type="date" name="dob" id="dob">
+           <br><br> <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="Your email here">
+           <br><br> <label for="number">Phone number</label>
+            <input type="tel" name="number" id="number" placeholder="Ex: 099856248">
+           <br><br> <label for="gender">Gender</label>
+        </div>
+       
+       <br> <select name="gender" id="gender">
+            <option value="">Select</option>
+            <option value="gender">Male</option>
+            <option value="gender">Female</option>
+        </select>
+        <br><br>
+        <DIV><input id="submit1" type="submit" value="Submit" > &nbsp;&nbsp;&nbsp;
+            <input  id="submit1" type="reset" value="Reset"></DIV>
+        
+
+
+    </form>
+</nav>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
